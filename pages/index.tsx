@@ -11,7 +11,7 @@ export function getStaticProps() {
   };
 }
 
-const Home: NextPage = ({ postsData }: { postsData: Post[] }) => {
+const Home: NextPage = ({ postsData }: any) => {
   return (
     <div>
       <Head>

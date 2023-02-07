@@ -24,7 +24,7 @@ export function getStaticProps({ params }: { params: { id: string } }) {
   };
 }
 
-function Post({ data }: Post) {
+function Post({ data }: any) {
   return (
     <div>
       <Head>
